@@ -1,0 +1,119 @@
+/* Imagen de fondo */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi851AYMBn8sio3RqJMNeTz1oa6_cXqSv_4pTQgj09FlcX09WFP5lAYE5weo6tKUmgi5kLLbPft40I9tm2uLx39Xwzy6h6nqFOYFulUCutG3dDZg1g31OHZZOpx89LQ3kpcFhlNPQrvP4o/s1500/stei1.jpg'); /* Cambia esta URL por la de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Estilos para el contenedor */
+.contenedor {
+  max-width: 600px;
+  margin: 20px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out; /* Animación de entrada */
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Estilos para el título */
+.contenedor h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  animation: slideIn 1s ease-in-out; /* Animación de entrada */
+}
+
+/* Animación de deslizamiento */
+@keyframes slideIn {
+  from {
+      transform: translateY(-30px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* Estilos para el párrafo */
+.contenedor p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  animation: fadeIn 2s ease-in-out; /* Animación de entrada */
+}
+
+/* Estilos para el botón */
+.boton-redirecion {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease; /* Transición suave */
+  animation: pulse 2s infinite; /* Animación de pulso */
+}
+
+/* Efecto hover para el botón */
+.boton-redirecion:hover {
+  background-color: #013d7e;
+  transform: scale(1.5); /* Aumenta el tamaño del botón */
+  box-shadow: 0 0 55px rgba(0, 123, 255, 0.6); /* Sombra azul */
+}
+
+/* Efecto active para el botón */
+.boton-redirecion:active {
+  transform: scale(0.95); /* Reduce el tamaño al hacer clic */
+}
+
+/* Animación de pulso */
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.15);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+/* Estilos para las frases */
+.contenedor h4 {
+  color: #333;
+  margin: 15px 0;
+  font-size: 1.2rem;
+  animation: fadeIn 2.5s ease-in-out; /* Animación de entrada */
+}
+
+.frase-destacada {
+  font-style: italic;
+  color: #7bdb0e; /* Verde brillante */
+  margin-bottom: 15px;
+  animation: fadeIn 3s ease-in-out; /* Animación de entrada */
+}

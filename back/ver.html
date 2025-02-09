@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Steins;Gate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>¡Disfruta de Steins;Gate!</h1>
+        <p class="descripcion">
+            Prepárate para un viaje emocionante a través del tiempo y el espacio.
+        </p>
+
+        <!-- Título del capítulo -->
+        <h2 id="titulo-capitulo">Capítulo 1</h2>
+
+        <!-- Reproductor de video -->
+        <iframe id="reproductor" src="https://drive.google.com/file/d/1KAfdakqUvjtn-DfpxbR_uugKu5m-qEzN/preview" width="540" height="360" allowfullscreen></iframe>
+
+        <!-- Barra de navegación -->
+        <div class="navegacion">
+            <button id="anterior" class="boton-navegacion">Anterior</button>
+            <button id="lista" class="boton-navegacion" onclick="window.location.href='lista.html'">Lista</button>
+            <button id="siguiente" class="boton-navegacion">Siguiente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Capítulos - Steins;Gate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Lista de Capítulos</h1>
+        <ul>
+            <li onclick="redirigirAVer(0)">Capítulo 1</li>
+            <li onclick="redirigirAVer(1)">Capítulo 2</li>
+            <li onclick="redirigirAVer(2)">Capítulo 3</li>
+        </ul>
+        <a href="index.html" class="boton-redirecion">Volver a la página principal</a>
+    </div>
+
+    <script>
+        function redirigirAVer(indice) {
+            window.location.href = `ver.html?capitulo=${indice}`;
+        }
+    </script>
+</body>
+</html>

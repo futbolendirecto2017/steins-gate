@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Capítulos - Steins;Gate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Lista de Capítulos</h1>
+        <ul id="lista-capitulos"></ul>
+        <a href="index.html" class="boton-redirecion">Volver al Inicio</a>
+    </div>
+
+    <script>
+        // Generar la lista de capítulos dinámicamente
+        const listaCapitulos = document.getElementById("lista-capitulos");
+        const totalCapitulos = 26;
+
+        for (let i = 1; i <= totalCapitulos; i++) {
+            let li = document.createElement("li");
+            let link = document.createElement("a");
+            link.href = `ver.html?capitulo=${i - 1}`; // Redirige con el número de capítulo
+            link.textContent = `Capítulo ${i}`;
+            li.appendChild(link);
+            listaCapitulos.appendChild(li);
+        }
+    </script>
+</body>
+</html>
