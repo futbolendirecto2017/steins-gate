@@ -14,6 +14,19 @@ body {
   overflow: hidden;
 }
 
+/* Estilos para el contenedor principal */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ads {
+  text-align: center;
+
+}
+
+
 /* Estilos para el contenedor */
 .contenedor {
   max-width: 600px;
