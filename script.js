@@ -23,9 +23,9 @@ const capitulos = [
     { titulo: "Capítulo 21", url: "https://drive.google.com/file/d/1cgRBc407SNx0JywlCQRx32RvScCs03ge/preview" },
     { titulo: "Capítulo 22", url: "https://drive.google.com/file/d/1lfel38l8774vm0o-dTAFS5ewZI_8d6h6/preview" },
     { titulo: "Capítulo 23", url: "https://drive.google.com/file/d/1Bfrxrp--ae85PP42c3h287ULFhI91Lsf/preview" },
-    { titulo: "Capítulo 24", url: "https://drive.google.com/file/d/1avnlmrcauC4_5M9ZdW-V2FbON0Rbsz6T/preview" },
-    { titulo: "Capítulo 25", url: "https://drive.google.com/file/d/1KjqEIA091w1OKkeo3lAPWb0d9Jx5_hx6/preview" },
-    { titulo: "Capítulo 26", url: "https://drive.google.com/file/d/1SfvdO-_3eSc5DtuPP40paeDrelRCl5Qg/preview" }
+    { titulo: "FIN TEMPORADA 1", url: "https://drive.google.com/file/d/1avnlmrcauC4_5M9ZdW-V2FbON0Rbsz6T/preview" },
+    { titulo: "INICIO TEMPORADA 2", url: "https://drive.google.com/file/d/1KjqEIA091w1OKkeo3lAPWb0d9Jx5_hx6/preview" },
+    { titulo: "OVA", url: "https://drive.google.com/file/d/1SfvdO-_3eSc5DtuPP40paeDrelRCl5Qg/preview" }
 
 ];
 
